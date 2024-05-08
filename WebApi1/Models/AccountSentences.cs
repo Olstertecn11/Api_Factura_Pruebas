@@ -66,6 +66,14 @@ namespace WebApi1.Models
         }
 
 
+        public void realizarPago(string accountNumber, double amount)
+        {
+            string sql = "update tbl_cuenta set cue_saldo=cue_saldo-'" + amount + "' where cue_numero='" + accountNumber + "'";
+            OdbcCommand cmd = new OdbcCommand(sql, this.conn.conexion());
+            cmd.ExecuteNonQuery();
+        }
+
+
 
     }
 }

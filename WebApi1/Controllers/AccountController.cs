@@ -35,9 +35,12 @@ namespace WebApi1.Controllers
         }
 
         // PUT api/<AccountController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public Invoice Put([FromBody] Invoice invoice)
         {
+            this.accountSentence.realizarPago(invoice.clientAccount, invoice.amount);
+            invoice.status = true;
+            return invoice;
         }
 
         // DELETE api/<AccountController>/5
