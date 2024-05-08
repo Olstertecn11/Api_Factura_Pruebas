@@ -65,6 +65,26 @@ namespace WebApi1.Models
             return null;
         }
 
+        public bool checkPaymentViability(string accountNumber, double amount)
+        {
+            string sql = "select cue_saldo from tbl_cuenta where cue_numero='" + accountNumber + "'";
+            OdbcDataReader reader = this._get("", sql);
+            if (reader.Read())
+            {
+                return (reader.GetDouble(0) - amount) > 0;
+            }
+            return false;
+        }
+
+
+
+        public void makeServicePayment(string accountNumber, double amount)
+        {
+            string sql = "update tbl_cuenta set cue_saldo=cue_saldo-'" + amount + "' where cue_numero='" + accountNumber + "'";
+            OdbcCommand cmd = new OdbcCommand(sql, this.conn.conexion());
+            cmd.ExecuteNonQuery();
+        }
+
 
 
     }
