@@ -36,11 +36,16 @@ namespace WebApi1.Controllers
 
         // PUT api/<AccountController>/5
         [HttpPut]
-        public Invoice Put([FromBody] Invoice invoice)
+        public Response<Invoice> Put([FromBody] Invoice invoice)
         {
-            this.accountSentence.realizarPago(invoice.clientAccount, invoice.amount);
-            invoice.status = true;
-            return invoice;
+            if (this.accountSentence.checkPaymentViability(invoice.clientAccount, invoice.amount))
+            {
+                this.accountSentence.makeServicePayment(invoice.clientAccount, invoice.amount);
+                invoice.status = true;
+                return new Response<Invoice>(200, "Pago realizado correctamente", invoice);
+            }
+            return new Response<Invoice>(402, "Fondos insuficientes para realizar el pago", invoice);
+
         }
 
         // DELETE api/<AccountController>/5
