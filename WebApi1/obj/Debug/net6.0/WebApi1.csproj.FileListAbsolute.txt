@@ -37,3 +37,37 @@ C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\n
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.Data.Odbc.dll
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.Odbc.dll
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.csproj.AssemblyReference.cache
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.AssemblyInfoInputs.cache
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.AssemblyInfo.cs
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.csproj.CoreCompileInputs.cache
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\ref\WebApi1.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.pdb
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\appsettings.json
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\WebApi1.exe
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\WebApi1.deps.json
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\WebApi1.runtimeconfig.json
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\WebApi1.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\ref\WebApi1.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\WebApi1.pdb
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\System.Data.Odbc.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\runtimes\freebsd\lib\net6.0\System.Data.Odbc.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.Data.Odbc.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.Data.Odbc.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.Odbc.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\scopedcss\bundle\WebApi1.styles.css
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.csproj.CopyComplete
+C:\Users\rayju\OneDrive\Escritorio\API FACTURAS DE SERVICIOS\Api_Factura_Pruebas\WebApi1\obj\Debug\net6.0\WebApi1.genruntimeconfig.cache

@@ -14,7 +14,7 @@ namespace WebApi1.Models
         public List<string> getAccountsNames()
         {
             List<string> accountsNames = new List<string>();
-            OdbcDataReader reader = this._get("", "SELECT cue_id, cli_nombre, cue_numero, cue_saldo FROM bd_banco.tbl_cuenta inner join tbl_cliente on cli_id = cue_cliente");
+            OdbcDataReader reader = this._get("", "SELECT cue_id, cli_nombre, cue_numero, cue_saldo FROM tbl_cuenta inner join tbl_cliente on cli_id = cue_cliente");
             while (reader.Read())
             {
                 string name = reader.GetString(1);
@@ -26,7 +26,7 @@ namespace WebApi1.Models
         public List<Account> getAccounts()
         {
             List<Account> accounts = new List<Account>();
-            OdbcDataReader reader = this._get("", "SELECT cue_id, cli_nombre, cue_numero, cue_saldo FROM bd_banco.tbl_cuenta inner join tbl_cliente on cli_id = cue_cliente");
+            OdbcDataReader reader = this._get("", "SELECT cue_id, cli_nombre, cue_numero, cue_saldo FROM tbl_cuenta inner join tbl_cliente on cli_id = cue_cliente");
             while (reader.Read())
             {
                 Account acc = new Account(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetDouble(3));
@@ -56,7 +56,7 @@ namespace WebApi1.Models
 
         public Account getAccountBalance(string accountNo)
         {
-            string sql = "SELECT cue_id, cli_nombre, cue_numero, cue_saldo FROM bd_banco.tbl_cuenta inner join tbl_cliente on cli_id = cue_cliente";
+            string sql = "SELECT cue_id, cli_nombre, cue_numero, cue_saldo FROM tbl_cuenta inner join tbl_cliente on cli_id = cue_cliente";
             OdbcDataReader reader = this._get("", sql);
             if (reader.Read())
             {
