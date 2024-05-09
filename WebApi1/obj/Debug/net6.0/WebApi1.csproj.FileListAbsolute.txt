@@ -9,6 +9,13 @@ C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\n
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\System.Data.Odbc.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\freebsd\lib\net6.0\System.Data.Odbc.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.Data.Odbc.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.Data.Odbc.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.Odbc.dll
+C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\net6.0\WebApi1.csproj.AssemblyReference.cache
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\net6.0\WebApi1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\net6.0\WebApi1.AssemblyInfoInputs.cache
@@ -30,10 +37,3 @@ C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\n
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\net6.0\WebApi1.pdb
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\net6.0\WebApi1.genruntimeconfig.cache
 C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\obj\Debug\net6.0\ref\WebApi1.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\System.Data.Odbc.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\freebsd\lib\net6.0\System.Data.Odbc.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.Data.Odbc.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.Data.Odbc.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.Odbc.dll
-C:\Users\olste\Documents\Visual Studio 2022\Projects\WebApi1\WebApi1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll

@@ -9,9 +9,11 @@ namespace WebApi1.Controllers
     public class AccountController : ControllerBase
     {
         public AccountSentences accountSentence;
+        public InvoiceSentence invSentence;
         public AccountController()
         {
             this.accountSentence = new AccountSentences();
+            this.invSentence = new InvoiceSentence();
         }
 
         // GET: api/<AccountController>
@@ -25,7 +27,7 @@ namespace WebApi1.Controllers
         [HttpGet("{id}")]
         public Account Get(string id)
         {
-            return this.accountSentence.getAccountBalance(id);
+            return this.accountSentence.getAccountByNit(id);
         }
 
         // POST api/<AccountController>
@@ -38,11 +40,12 @@ namespace WebApi1.Controllers
         [HttpPut]
         public Response<Invoice> Put([FromBody] Invoice invoice)
         {
-            if (this.accountSentence.checkPaymentViability(invoice.clientAccount, invoice.amount))
+            if (this.accountSentence.checkPaymentViability(invoice.clientNit, invoice.amount))
             {
-                this.accountSentence.makeServicePayment(invoice.clientAccount, invoice.amount);
+                this.accountSentence.makeServicePayment(invoice.clientNit, invoice.amount);
                 invoice.status = true;
-                return new Response<Invoice>(200, "Pago realizado correctamente", invoice);
+                this.invSentence.changeInvoiceStatus(invoice.id);
+                return new Response<Invoice>(300, "Pago realizado correctamente", invoice);
             }
             return new Response<Invoice>(402, "Fondos insuficientes para realizar el pago", invoice);
 
