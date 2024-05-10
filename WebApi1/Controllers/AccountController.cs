@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using CapaModelo_SisB;
 using WebApi1.Models;
-
 
 namespace WebApi1.Controllers
 {
@@ -8,11 +8,11 @@ namespace WebApi1.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        public AccountSentences accountSentence;
+        public AccountSentence accountSentence;
         public InvoiceSentence invSentence;
         public AccountController()
         {
-            this.accountSentence = new AccountSentences();
+            this.accountSentence = new AccountSentence();
             this.invSentence = new InvoiceSentence();
         }
 

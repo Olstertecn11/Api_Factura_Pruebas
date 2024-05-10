@@ -10,8 +10,9 @@ namespace WebApi1.Models
             {
                 conn.Open();
             }
-            catch (OdbcException)
+            catch (OdbcException e)
             {
+                Console.WriteLine(e.Message);
                 Console.WriteLine("No Conectó");
             }
             return conn;
