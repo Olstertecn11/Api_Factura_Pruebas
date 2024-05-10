@@ -9,7 +9,8 @@
       "WebApi1/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.2.3",
-          "System.Data.Odbc": "8.0.0"
+          "System.Data.Odbc": "8.0.0",
+          "CapaModelo_SisB": "1.0.0.0"
         },
         "runtime": {
           "WebApi1.dll": {}
@@ -118,6 +119,14 @@
             "fileVersion": "8.0.23.53103"
           }
         }
+      },
+      "CapaModelo_SisB/1.0.0.0": {
+        "runtime": {
+          "CapaModelo_SisB.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -189,6 +198,11 @@
       "sha512": "sha512-OZIsVplFGaVY90G2SbpgU7EnCoOO5pw1t4ic21dBF3/1omrJFpAGoNAVpPyMVOC90/hvgkGG3VFqR13YgZMQfg==",
       "path": "system.text.encoding.codepages/8.0.0",
       "hashPath": "system.text.encoding.codepages.8.0.0.nupkg.sha512"
+    },
+    "CapaModelo_SisB/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

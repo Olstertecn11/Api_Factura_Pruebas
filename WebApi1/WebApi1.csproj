@@ -4,12 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="System.Data.Odbc" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CapaModelo_SisB">
+      <HintPath>..\..\..\ISP12k24\Equipo2\Codigo\Modulos\Sistema_Bancario\Sistema_Bancario\CapaModelo_SisB\bin\Debug\CapaModelo_SisB.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
